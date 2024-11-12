@@ -16,7 +16,7 @@ jobs:
 
       # Step 2: Set up Docker
       - name: Set up Docker
-        run: sudo apt update && sudo apt install -y docker.io
+        run: sudo apt-get update && sudo apt-get install -y docker.io
 
       # Step 3: Build the Docker image
       - name: Build Docker image for feature
