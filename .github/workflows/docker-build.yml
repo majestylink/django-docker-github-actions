@@ -28,4 +28,4 @@ jobs:
         with:
           name: feature_${{ github.head_ref }}_image
           path: |
-            ./ # Adjust to your Docker image tar path if necessary
+            ./
